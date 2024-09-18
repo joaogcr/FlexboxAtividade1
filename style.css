@@ -21,9 +21,8 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .filho {
@@ -40,13 +39,13 @@ h1 {
 
 .cor2 {
     background-color: #63B1BC;
-    margin-left: 160px;
+    align-self: flex-end;
     order: 3;
 }
 
 .cor3 {
     background-color: #EFB661;
-    margin-left: 80px;
+    align-self: center;
     order: 2;
 }
 
